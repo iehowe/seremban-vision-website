@@ -1,0 +1,52 @@
+html,body{padding:0;margin:0;height:100vh;background-color:#D0CCC4;overflow:hidden;color:#000;}
+img{position:absolute;top:0;right:0;width:100vw;}
+.bg{display:none;}
+.box{height:33.33vh;overflow:hidden;float:left;position:relative;border:1px solid black;box-sizing:border-box;cursor:pointer;}
+.box-lg{width:50%;}
+.box-md{width:33.33%;}
+.box-sm{width:25%;}
+.box-isuzu, .box-fuso, .box-nissan, .box-subaru, .box-bcm{width: 20%;}
+.box-bcm .ico-title img{max-width: 80%;}
+.box .flex-div{display:flex;align-items:center;justify-content:center;width:100%;height:100%;}
+.homepage-copy{position:relative;top:initial;left:initial;padding-left:90px;padding-right:90px;width:100%;}
+.homepage-copy .copy-title{letter-spacing:4px;line-height: 1.2;}
+.homepage-copy .copy-desc{letter-spacing:1px;}
+
+.logo-box{text-align:center;}
+.logo-box .flex-div{display:flex;align-items:center;justify-content:center;width:100%;height:100%;}
+.logo-box img.bg-show-img{position:relative;margin:0 auto;width:auto;}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    .homepage-copy{padding-left:60px;padding-right:60px;}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .homepage-copy{padding-left:50px;padding-right:50px;}
+}
+
+@media screen and (max-width:767px){
+    html,body{height:100%;background-color: #000;}
+    .box{width:50%;height:20%;background-repeat:no-repeat;background-size:cover;background-position:center;}
+    .logo-box{width:100%;height:15%;order:5;background-color: #D0CCC4;}
+    .box .bg-show-img{display:none !important;}
+    .logo-box img.bg-show-img{height:8vh;display:inline-block !important;}
+    .box-experience{background-image:url(../images/bg/bg-experience-mobile.jpg);order:1;}
+    .box-culture{background-image:url(../images/bg/bg-culture-mobile.jpg);order:2;}
+    .box-awards{background-image:url(../images/bg/bg-awards-mobile.jpg);order:3;}
+    .box-contact{background-image:url(../images/bg/bg-contact-mobile.jpg);order:4;}
+    .box-isuzu{background-image:url(../images/bg/bg-isuzu-mobile.jpg);order:6;}
+    .box-fuso{background-image:url(../images/bg/bg-fuso-mobile.jpg);order:7;}
+    .box-nissan{background-image:url(../images/bg/bg-nissan-mobile.jpg);order:8;}
+    .box-subaru{background-image:url(../images/bg/bg-subaru-mobile.jpg);order:9;}
+    .box-bcm{background-image:url(../images/bg/bg-bcm-mobile.jpg);order:10;}
+    .homepage-copy{padding-left:10%;padding-right:10%;}
+    .homepage-copy .ico-title{margin-bottom:15px;}
+    .box-isuzu, .box-fuso, .box-nissan, .box-subaru, .box-bcm{width: 100%;height: 9%;}
+}
+
+@media screen and (max-width:480px){
+    .homepage-copy .copy-title{font-size:13px;}
+    .homepage-copy .ico-title{margin-bottom:10px;}
+    .homepage-copy .ico-title img{height:30px;}
+    .homepage-copy .copy-desc{font-size:12px;}
+}

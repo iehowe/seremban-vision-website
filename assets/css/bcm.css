@@ -1,0 +1,119 @@
+.row-bcm {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 23px;
+    top: 75px;
+    z-index: 99;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-column {
+    margin: 3rem 0 .5rem;
+}
+/* .logo-bcm {
+    max-height: 50px;
+    display: inline-block;
+}
+.logo-bcm.hover {
+    display: none;
+} */
+
+.logo-bcm {
+    width: 63px;
+    height: 50px;
+    background-size: cover;
+    /* position: relative;
+    right: -.5rem; */
+}
+#logo_kaicene {
+    background-image: url(../images/bcm/logo_kaicene_white.png);
+}
+#logo_kaicene:hover, #logo_kaicene.active {
+    background-image: url(../images/bcm/logo_kaicene_gold.png);
+}
+#logo_fmg {
+    background-image: url(../images/bcm/logo_fmg_white.png);
+}
+#logo_fmg:hover, #logo_fmg.active {
+    background-image: url(../images/bcm/logo_fmg_gold.png);
+}
+#logo_gd {
+    width: 97px;
+    background-image: url(../images/bcm/logo_gd_white.png);
+    /* right: -1.5rem; */
+}
+#logo_gd:hover, #logo_gd.active {
+    background-image: url(../images/bcm/logo_gd_gold.png);
+}
+
+
+/* .overlay-bcm {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+} */
+.bcm-sub-logo img {
+    max-height: 80px;
+}
+.bcm-line {
+    width: 1px;
+    height: 80px;
+    margin: 0 2rem;
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+.product-slide {
+    /* padding: 12rem 0 5rem; */
+}
+
+
+@media screen and (max-width:768px) {
+    .row-bcm {
+        right: 35px;
+        top: 75px;
+        width: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-column {
+        margin: 1.5rem 0 1rem;
+    }
+    .logo-bcm {
+        width: 38px;
+        height: 30px;
+    }
+    #logo_gd {
+        width: 58px;
+    }
+    .bcm-sub-logo {
+        /* display: contents; */
+    }
+    .bcm-sub-logo img {
+        /* max-height: inherit;
+        max-width: 15%; */
+        width: 50px;
+        max-height: inherit;
+        max-width: inherit;
+    }
+    .bcm-sub-logo.long img {
+        max-width: inherit;
+        max-height: 40px;
+    }
+    .bcm-line {
+        height: 40px;
+        margin: 0 1rem .8rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .row-bcm {
+        right: 0;
+        top: 40px;
+    }
+}

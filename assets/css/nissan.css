@@ -1,0 +1,109 @@
+.product-container {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#474747+0,474747+20,1d1d1b+79,1d1d1b+100 */
+    background: #474747; /* Old browsers */
+    background: -moz-linear-gradient(top,  #474747 0%, #474747 20%, #1d1d1b 79%, #1d1d1b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #474747 0%,#474747 20%,#1d1d1b 79%,#1d1d1b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #474747 0%,#474747 20%,#1d1d1b 79%,#1d1d1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#1d1d1b',GradientType=0 ); /* IE6-9 */
+}
+.slick-slide {
+    padding: 10rem 0 0;
+}
+.product-slide {
+    padding: 10rem 0 2rem;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
+.product-description {
+    max-width: 1500px;
+}
+.product-description hr {
+    width: 40%;
+    margin: 0 auto .5rem;
+}
+.product-description .subtitle {
+    font-size: 36px;
+}
+.product-description .smalltitle {
+    font-size: 24px;
+}
+.product-description .font-meta-cap.txt--white {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.line {
+    padding: 0 1rem;
+}
+
+.product-container{position:relative;}
+.product-container::before{content:'';width:84%;height:2px;background-color:#FFF;left:8%;top:0;position:absolute;}
+
+.border-top{border-top:none !important;}
+
+@media screen and (max-width:768px){
+    .nissan-title img {
+        max-width: 35%;
+        margin-bottom: 1.5rem !important;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .product-slide {
+        padding: 12rem 5rem 5rem;
+    }
+}
+
+@media screen and (max-width:640px){
+    .title {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        letter-spacing: 2px;
+    }
+    .nissan-title {
+        bottom: 3%;
+        left: 8%;
+    }
+    .nissan-title img {
+        max-width: 25%;
+        margin-bottom: .8rem !important;
+    }
+    .subtitle {
+        font-size: .9rem;
+        margin-bottom: 0;
+    }
+    .product-description .subtitle {
+        font-size: .9rem;
+    }
+    .product-description .smalltitle {
+        font-size: .7rem;
+    }
+    .product-description .font-meta-cap.txt--white {
+        font-size: .5rem;
+    }
+    .line {
+        padding: 0 .5rem;
+    }
+    .smalltitle {
+        font-size: .7rem;
+    }
+    .font-meta-cap {
+        font-size: .5rem;
+    }
+    .product-slide {
+        xpadding-top: 2rem;
+    }
+   .product-description {
+        padding: 3rem 3%;
+    }
+    .product-description hr {
+        margin: .2rem auto;
+        width: 75%;
+    }
+    .border-top {
+        /*border-top: 2px solid white !important;*/
+    }
+    .product-slide {
+        padding: 7rem 2rem 2rem;
+    }
+}

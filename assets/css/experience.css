@@ -1,0 +1,187 @@
+.section-service {
+    padding: 3rem 3rem 0;
+}
+.accordion-section, .merchandise {
+    padding: 3rem;
+}
+.section-service .container, .accordion-section .container, .merchandise .container {
+    max-width: 100%;
+    padding: 0 calc(6rem - 15px);
+}
+
+.accordion-item {
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+.icon-location {
+    position: absolute;
+    top: -1.8rem;
+    left: 1.25rem;
+}
+.accordion-item:first-child {
+    /* margin-bottom: 9rem; */
+}
+.accordion-item:last-child {
+    /* margin-bottom: 2rem; */
+}
+.accordion-header-text {
+    padding-top: 1.5rem;
+}
+.accordion-button::after {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    margin-top: -10px;
+}
+/* .accordion-header-text {
+    margin: 2.5rem auto;
+    padding-top: 1.5rem;
+} */
+/* .accordion-button::after, .accordion-button:not(.collapsed)::after {
+    margin-top: 2rem;
+} */
+.title-main {
+    font-size: 1.5rem;
+}
+.title-sub {
+    font-size: 32px;
+}
+
+.experience-text {
+    margin-top: 2rem!important;
+    margin-bottom: 3rem!important;
+}
+
+@media screen and (max-width:1440px) {
+    .accordion-section .container {
+        padding: 0 calc(8rem - 15px);
+    }
+    .accordion-button::after {
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+
+    .location-box p {
+        margin-bottom: 0.4rem;
+        font-size: .85rem;
+    }
+    .location-box p.txt--gold.font-meta-bold-roman {
+        margin-bottom: .5rem;
+    }
+    .location-box hr.bg--gold {
+        margin: .35rem 0;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .section-service .container, .accordion-section .container, .merchandise .container {
+        padding: 0 calc(4rem - 15px);
+    }
+    .section-service .row.justify-content-md-center .col.col-md-6.ps-4 {
+        width: 80%;
+    }
+    .subtitle.title-main {
+        font-size: 1.8rem;
+    }
+    .border-top-gold.txt--gold.pt-2.mb-3.subtitle.font-meta-bold-roman.title-main {
+        font-size: 1.8rem;
+    }
+    .txt--gold.font-meta-bold-roman.title-sub {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .icon-location {
+        position: absolute;
+        top: -2px;
+        left: 0;
+    }    
+    .icon-location img {
+        width: 10px;
+    }
+    .section-service {
+        padding: 0;
+    }
+    .accordion-section, .merchandise {
+        padding: 0;
+    }
+    .accordion-section {
+        background-size: contain;
+    }
+    .section-service .container, .accordion-section .container, .merchandise .container {
+        padding: 0 30px;
+    }
+    .title-main {
+        font-size: inherit;
+    }
+    .title-sub {
+        font-size: inherit;
+    }
+    .section-service .subtitle {
+        font-size: 1.2rem;
+    }
+    .subtitle.title-main {
+        font-size: .8rem;
+    }
+    .border-top-gold.txt--gold.pt-2.mb-3.subtitle.font-meta-bold-roman.title-main {
+        font-size: 1.1rem;
+        margin-bottom: .6rem !important;
+    }
+    .txt--gold.font-meta-bold-roman.title-sub {
+        font-size: .9rem;
+    }
+    .border-top-gold {
+        border-top: 1px solid #B07C48 !important;
+    }
+    p.accordion-header-text {
+        border-top: 2px solid white !important;
+    }
+    .accordion-item:nth-child(1) {
+        /* margin-bottom: .5rem; */
+    }
+    .accordion-item:last-child {
+        margin-bottom: -1rem;
+    }
+    .accordion-item .accordion-header-text img {
+        width: 70px;
+    }
+    .accordion-button::after {
+        width: 1.25rem;
+        height: 1.25rem;
+        background-size: 1.25rem;
+        margin-top: 0;
+        margin-left: .5rem;
+    }
+    .accordion-item {
+        margin-bottom: inherit;
+    }
+    .accordion-header-text {
+        padding-top: .5rem;
+    }
+    .location-box-container {
+        display: flex;
+    }
+    .location-box {
+        padding-top: 0 !important;
+        padding-left: .5rem;
+    }
+    .location-box p {
+        font-size: .5em;
+        margin-bottom: .25rem;
+    }
+    span.note {
+        font-size: .5rem;
+    }
+    .location-box p.txt--gold.font-meta-bold-roman {
+        margin-bottom: .3rem;
+    }
+    .location-box hr.bg--gold {
+        margin: .25rem 0;
+    }
+}

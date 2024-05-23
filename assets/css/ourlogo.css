@@ -1,0 +1,430 @@
+.sticky{margin-top:0;}
+.sticky .container-fluid{padding:0 50px;}
+.sticky .d-flex{padding:30px 0 0;}
+.nav-logo, .btn-nav{max-height:45px !important;}
+section#section-1{height:100vh;min-height:800px;width:100%;}
+section#section-1 .slick-slide img{width:100%;}
+section#section-1 .text-layer{width:22%;margin:-4% auto 0;height:190px;}
+section#section-1 .text-layer.layer2{width:auto;display:table;max-width:570px;}
+section#section-1 .text-layer.layer3{width:auto;display:table;max-width:690px;}
+section#section-1 .text-layer.layer4{width:auto;display:table;max-width:790px;}
+section#section-1 .text-layer .inner-div{display:table-cell;vertical-align:bottom;text-align:left;}
+section#section-2{height:100vh;min-height:800px;width:100%;background-repeat:no-repeat;background-size:cover;background-position:center;background-image:url(../images/ourlogo/our-logo-s2.jpg);}
+section#section-2 img{display:none;}
+section#section-3{height:100vh;min-height:800px;}
+section#section-3 .container{height:100%;}
+section#section-3 .container .col-sm-12{height:100%;}
+.flex-div{display:flex;align-items:center;justify-content:center;width:100%;height:100%;}
+section#section-3 .svlogo3a{text-align:left !important;text-transform:uppercase;font-family:'Alex', Arial;font-size:5rem;margin:0 auto 3rem;color:#966B51;letter-spacing:0.5rem;padding-left:11rem;padding-right:11rem;}
+.svlogo3b{text-align:left !important;font-size:2.5rem;color:#966B51 !important;margin:0 auto;padding-left:11rem;padding-right:11rem;}
+.overlay-div{background-color:rgba(0,0,0,0.3);}
+section#section-4 .dna-padding{padding:4.3rem 3rem 5.2rem;min-height:24rem;}
+section#section-4 .our-dna .dna-title{font-family:'MetaBold-Roman', Arial;font-size:1.2rem;letter-spacing:0.2rem;line-height:1.3;margin-bottom:1rem !important;}
+section#section-4 .our-dna .subtitle{font-size:2rem;letter-spacing:0.3rem;padding-left:3rem;}
+section#section-4 .our-dna .subtitle.num{font-size:2rem;letter-spacing:0.4rem;margin-top:0;padding-left:0;}
+section#section-4 .our-dna .subtitle .border-top{padding-top:0.6rem !important;border-top:2px solid #FFF !important;}
+section#section-4 .font-meta-normal-roman{font-family:'MetaNormal-Roman', Arial;line-height:1.1;font-size:1.5rem;margin:0 0 0 auto;width:100%;max-width:29rem;}
+section#section-5 .section-padding{padding:2.5rem;}
+section#section-5 .section-padding .container{max-width:100%;}
+section#section-5 .section-padding img.img-fluid{width:100%;}
+section#section-5 .bg-brand-promise{padding:0 2rem;}
+section#section-5 .brand-promise-box .font-meta-bold-roman{display:inline-block;font-size:2.2rem;letter-spacing:0.05rem;line-height:0.9;}
+section#section-5 .bg-brand-promise p{color:#ffffff;font-size:1.3rem;font-family:'MetaBold-Roman', Arial;line-height:1.2; opacity: 0.8;}
+section#section-5 .bg-brand-promise-m{padding:0 2rem;}
+section#section-5 .bg-brand-promise-m p{color:#ffffff;font-size:1.3rem;font-family:'MetaBold-Roman', Arial;line-height:1.2; opacity: 0.8;}
+section#section-6 .container{max-width:100%;padding:0 calc(6rem - 15px);}
+section#section-6 .container .col-md-6{padding-left:15px;padding-right:15px;}
+.vision-title{font-family:'MetaBold-Roman', Arial;font-size:1.4rem;letter-spacing:0.2rem;line-height:1.3;margin-bottom:1rem !important;}
+section#section-6 .bg-div{background-color:#FFF;height:100%;}
+section#section-6 .p-4.mb-3.bg--white{padding-left:3rem !important;padding-right:3rem !important;padding-top:2.5rem !important;padding-bottom:2.5rem !important;margin-bottom:0 !important;border-bottom:30px solid #E7E5D3;}
+section#section-6 .p-4.mb-3.bg--white.bottom-div{border-bottom:none;}
+section#section-6 .bg-div .smalltitle{font-size:2.5rem;letter-spacing:0.1rem;line-height:1.1;letter-spacing:0.7px;}
+section#section-6 .milestone{padding-left:3rem !important;padding-right:3rem !important;padding-top:2.5rem !important;padding-bottom:2.5rem !important;margin-bottom:0 !important;height:100%;}
+section#section-6 .milestone .milestone-item{padding-left:1rem !important;}
+section#section-6 .milestone p{font-size:1.6rem;color:#9ca0aa;}
+section#section-6 .milestone .smalltitle{font-size:2.2rem;letter-spacing:0.1rem;}
+
+footer{padding:2rem 3rem;}
+footer .container{max-width:100%;padding: 0 calc(6rem - 15px);}
+footer .container .row .col-12.col-md-4{padding: 0 15px;}
+footer .container .row .col-12.col-md-8{padding: 0 15px;}
+footer .container .mb-4{margin-bottom:0 !important;}
+footer .container a{display:inline-block;}
+footer .container a.first-link{margin-right:15px;}
+footer .text-div{display:flex;height:100%;width:100%;align-items:flex-end;justify-content:flex-end;}
+footer .footer-note{margin:0;font-size:.8rem;color:#31455b !important;}
+footer .footer-note a{color:#31455b !important;}
+footer .footer-note a:hover{text-decoration:underline;}
+
+.slides-container li img{width:100px;height:100px;}
+#slides{background:transparent url(../images/ourlogo/ourlogo_bg.jpg) top center no-repeat;background-size:cover;text-align:center;height:100%;}
+.slide-img{width:100%;height:auto;}
+#slides .slick-track{margin-top:80px;}
+.slick-dots li{margin:0 10px !important;}
+.sv-container1{margin-top:-75px;}
+.svlogo1a{text-align:left !important;text-transform:uppercase;color:#ffffff;font-size:21px;font-weight:bolder;letter-spacing:0.1rem;padding:0.75rem 0 0 0;font-family:'MetaBold-Roman';border-top:0.15rem solid #ffffff;width:auto;display:inline-block;}
+.svlogo1b{text-align:left !important;text-transform:uppercase;color:#ffffff;font-size:48px;letter-spacing:0.5rem;font-family:'Alex';padding-top:2.5rem;}
+.sv-container3{margin-top:-75px;}
+.svlogo2{text-align:left !important;color:#ffffff;font-size:31px;letter-spacing:0.1rem;font-family:'MetaNormal-Roman';}
+.section2{background:transparent url(../images/ourlogo/our-logo-s2.jpg) top center no-repeat;background-size:100% auto;text-align:center;height:100%;}
+#slides-m{background:transparent url(../img/ourlogo/mobile/Mobile_Slide1.png) top center no-repeat;background-size:100% auto;text-align:center;height:100%;}
+#slides-m .d-flex{margin-left:25px;}
+#slides-m .slick-dots{bottom:100px;}
+#slides-m .slick-track{margin-top:200px;}
+#slides-m .svlogo1a{text-align:left !important;text-transform:uppercase;color:#ffffff;font-size:15px;font-weight:bolder;letter-spacing:0.1rem;padding:0.5rem 0 0 0;font-family:'MetaBold-Roman';border-top:0.15rem solid #ffffff;width:85px !important;}
+#slides-m .svlogo1b{text-align:left !important;text-transform:uppercase;color:#ffffff;font-size:25px;letter-spacing:0.3rem;font-family:'Alex';padding-top:2rem;}
+#slides-m .svlogo2{text-align:left !important;color:#ffffff;font-size:22px;letter-spacing:0.1rem;font-family:'MetaNormal-Roman';}
+#slides-m .svlogo3{text-align:left !important;color:#ffffff;font-size:22px;letter-spacing:0.1rem;font-family:'MetaNormal-Roman';padding:70px 0 0 0;}
+
+@media screen and (min-width:1270px) and (max-width:1440px){
+  section#section-1 .text-layer{height:180px;}
+  .svlogo1b{font-size:35px;}
+}
+
+@media screen and (min-width:1135px) and (max-width:1269px){
+  section#section-1 .text-layer{height:165px;}
+  .svlogo1b{font-size:34px;}
+}
+
+@media screen and (min-width:951px) and (max-width:1134px){
+  section#section-1 .text-layer{height:150px;}
+  .svlogo1b{font-size:26px;}
+}
+
+@media screen and (min-width:815px) and (max-width:950px){
+  section#section-1 .text-layer{height:135px;}
+  .svlogo1b{font-size:20px;}
+}
+
+@media screen and (min-width:768px) and (max-width:814px){
+  section#section-1 .text-layer{height:130px;}
+  .svlogo1b{font-size:17px;}
+}
+
+
+
+
+
+@media screen and (max-width:1440px){
+  section#section-2 {
+    height: 75vh;
+    min-height: 600px;
+  }
+
+  section#section-3 .svlogo3a {
+    font-size: 3.5rem;
+  }
+  .svlogo3b {
+    font-size: 2rem;
+  }
+  section#section-3 {
+    height: 75vh;
+    min-height: 600px;
+  }
+
+  section#section-4 .dna-padding {
+    padding: 3.2rem 7rem 3.9rem;
+    min-height: 18rem;
+  }
+  section#section-4 .our-dna .dna-title {
+    font-size: .9rem;
+  }
+  section#section-4 .our-dna .subtitle {
+    font-size: 1.5rem;
+  }
+  section#section-4 .font-meta-normal-roman {
+    font-size: 1.2rem;
+  }
+
+  .brand-promise-box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  section#section-5 .brand-promise-box .font-meta-bold-roman {
+    font-size: 1.65rem;
+  }
+  section#section-5 .bg-brand-promise p {
+    font-size: 1rem;
+  }
+  section#section-5 .bg-brand-promise-m p {
+    font-size: 1rem;
+  }
+
+  section#section-6 .container {
+    padding: 0 calc(4.5rem - 15px);
+  }
+  section#section-6 .p-4.mb-3.bg--white {
+    padding-left: 2.25rem !important;
+    padding-right: 2.25rem !important;
+    padding-top: 1.9rem !important;
+    padding-bottom: 1.9rem !important;
+  }   
+  .vision-title {
+    font-size: 1rem;
+  }
+  section#section-6 .bg-div .smalltitle {
+    font-size: 1.8rem;
+  }
+  section#section-6 .milestone {
+    padding-left: 2.25rem !important;
+    padding-right: 2.25rem !important;
+    padding-top: 1.9rem !important;
+    padding-bottom: 1.9rem !important;
+  }
+  section#section-6 .milestone p {
+    font-size: 1.2rem;
+  }
+  section#section-6 .milestone .smalltitle {
+    font-size: 1.65rem;
+  }
+  footer .container{
+    padding: 0 calc(4.5rem - 15px);
+  }
+}
+
+
+
+@media screen and (max-width:1200px){
+  section#section-2 {
+    height: 65vh;
+    min-height: 520px;
+  }
+
+  section#section-3 .svlogo3a {
+    font-size: 3.2rem;
+  }
+  .svlogo3b {
+    font-size: 1.3rem;
+  }
+  section#section-3 {
+    height: 65vh;
+    min-height: 520px;
+  }
+
+  section#section-4 .dna-padding {
+    padding: 2.8rem 5rem 3.4rem;
+    min-height: 15rem;
+  }
+  section#section-4 .our-dna .dna-title {
+    font-size: .9rem;
+  }
+  section#section-4 .our-dna .subtitle {
+    font-size: 1.5rem;
+  }
+  section#section-4 .font-meta-normal-roman {
+    font-size: 1.2rem;
+  }
+
+  .brand-promise-box {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+  section#section-5 .brand-promise-box .font-meta-bold-roman {
+    font-size: 1.4rem;
+  }
+
+  section#section-6 .container {
+    padding: 0 calc(4rem - 15px);
+  }
+  section#section-6 .p-4.mb-3.bg--white {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+  }   
+  section#section-6 .bg-div .smalltitle {
+    font-size: 1.6rem;
+  }
+  section#section-6 .milestone {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+  }
+  section#section-6 .milestone p {
+    font-size: 1rem;
+  }
+  section#section-6 .milestone .smalltitle {
+    font-size: 1.4rem;
+  }
+  footer .container{
+    padding: 0 calc(4rem - 15px);
+  }
+}
+
+
+@media screen and (max-width:992px){
+  section#section-2 {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  section#section-3 .svlogo3a {
+    font-size: 2.5rem;
+  }
+  .svlogo3b {
+    font-size: 1.2rem;
+  }
+  section#section-3 {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  section#section-4 .dna-padding {
+    padding: 2rem 6rem 2.5rem;
+    min-height: 12rem;
+  }
+  section#section-4 .our-dna .subtitle {
+    font-size: 1rem;
+  }
+  section#section-4 .font-meta-normal-roman {
+    font-size: .9rem;
+  }
+
+  .brand-promise-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  section#section-5 .brand-promise-box .font-meta-bold-roman {
+    font-size: 1.1rem;
+  }
+  section#section-5 .bg-brand-promise p {
+    font-size: .9rem;
+  }
+  section#section-5 .bg-brand-promise-m p {
+    font-size: .9rem;
+  }
+
+  section#section-6 .container {
+    padding: 0 calc(3rem - 15px);
+  }
+  section#section-6 .p-4.mb-3.bg--white {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+  section#section-6 .bg-div .smalltitle {
+    font-size: 1.25rem;
+  }
+
+  footer .container{
+    padding: 0 calc(3rem - 15px);
+  }
+}
+
+@media screen and (max-width:768px){ 
+  section#section-4 .our-dna .subtitle {
+    padding-left: 1.5rem;
+    letter-spacing: 0.1rem;
+  } 
+  section#section-4 .our-dna .subtitle.num {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+  .sticky.scrolled{background-color:rgba(191,184,176,.8)}
+  .sticky .container-fluid{padding:0 20px;}
+  .sticky .d-flex{padding:10px 0 0;}
+  .sticky.scrolled .d-flex{padding:10px 0;}
+
+  section#section-1{min-height:initial;}
+  section#section-2{background-image:none;height:auto;min-height:initial;}
+  section#section-2 img{display:block;width:100%;}
+  section#section-3 .svlogo3a{padding-left:0;padding-right:0;}
+  section#section-3 .svlogo3b{padding-left:0;padding-right:0;}
+
+  section#section-5 .section-padding{padding:0;}
+  /* section#section-5 .bg-brand-promise{display:block;} */
+  section#section-5 .bg-brand-promise .col{display:block;}
+  /* section#section-5 .bg-brand-promise-m{display:block;} */
+  section#section-5 .bg-brand-promise-m .col{display:block;}
+  .brand-promise-box{padding-left:0;padding-right:0;}
+  section#section-6 .container{padding:0 35px;}
+  section#section-6 .container .col-md-6{padding-left:0;padding-right:0;}
+  section#section-6 .p-4.mb-3.bg--white,
+  section#section-6 .p-4.mb-3.bg--white.bottom-div{padding:25px 30px !important;}
+  section#section-6 .bg-div .smalltitle{font-size:30px;}
+  section#section-6 .milestone{padding:25px 30px !important;}
+  section#section-6 .milestone .milestone-combine{font-size:0;}
+  section#section-6 .milestone .milestone-combine .milestone-item{width:33%;display:inline-block;vertical-align:top;margin-top:0 !important;margin-bottom:0 !important;}
+  section#section-6 .milestone .smalltitle{font-size:28px;}
+  section#section-6 .milestone p{font-size:20px;}
+
+  footer{padding:3rem 0;}
+  footer .container{padding:0 35px}
+  footer .text-div{justify-content:initial;margin:10px 0 0;}
+  footer .footer-note{font-size:14px;}
+}
+
+@media screen and (max-width:575px){
+  section#section-1 .container{padding:0 11%;}
+  .flex-div {
+    width: inherit;
+    height: inherit;
+  }
+
+  .brand-promise-box {
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  .vision-title {
+    font-size: inherit;
+  }
+}
+
+@media screen and (max-width:480px){
+  .nav-logo, .btn-nav{max-height:30px !important;}
+  #slides-m .slick-track{margin-top:150px;}
+  #slides-m .text-div{padding:0 10%;}
+  #slides-m .svlogo2{padding:0;}
+
+  section#section-3{height:auto;min-height:initial;padding:70px 0;}
+  section#section-3 .container{padding-left:30px;padding-right:30px;}
+  section#section-3 .svlogo3a{font-size:36px; letter-spacing:0.3rem;} /* yong */
+  section#section-3 .svlogo3b{font-size:1.2rem;} /* yong */
+
+  section#section-4 .dna-padding{padding:30px;min-height:initial;}
+  section#section-4 .our-dna .subtitle.num{font-size:18px;}
+  section#section-4 .our-dna .subtitle{padding-left:0;font-size:24px;margin-bottom:.8rem;}
+  section#section-4 .font-meta-normal-roman{font-size:0.95rem;opacity: 0.8;} /* yong */
+  section#section-4 .our-dna .dna-title{font-size:.6rem;}
+
+  section#section-5 .brand-promise-box.border-left.border-right{border-left:none;border-right:none;}
+  section#section-5 .brand-promise-box .font-meta-bold-roman{font-size:1.2rem;line-height:0.9;} /* yong */
+  section#section-5 .mt-5.mb-4{margin-top:35px !important;margin-bottom:15px !important;}
+  section#section-5 .mt-5.mb-4 img{height:40px;} /* yong */
+  section#section-5 .bg-brand-promise{padding:35px 30px 10px;}
+  section#section-5 .bg-brand-promise .col{padding:0 !important;margin-bottom:45px;}
+  .brand-promise-box{padding-top:0 !important;padding-bottom:0 !important;}
+  section#section-5 .bg-brand-promise p{font-size:0.95rem;color:#d1c0bc;} /* yong */
+
+  section#section-5 .bg-brand-promise-m{padding:35px 30px 10px;}
+  section#section-5 .bg-brand-promise-m .col{padding:0 !important;margin-bottom:45px;}
+  section#section-5 .bg-brand-promise-m p{font-size:0.95rem;color:#d1c0bc;} /* yong */
+
+  section#section-6 .container{padding:0 30px;}
+  section#section-6 .p-4.mb-3.bg--white,
+  section#section-6 .p-4.mb-3.bg--white.bottom-div{padding:25px 20px !important;}
+  section#section-6 .bg-div .smalltitle{font-size:24px;}
+  section#section-6 .milestone{padding:30px 20px 15px !important;}
+  section#section-6 .milestone .milestone-item{padding-left:8px !important;}
+  section#section-6 .milestone .smalltitle{font-size:24px;}
+  section#section-6 .milestone p{font-size:16px;}
+  section#section-6 .milestone .milestone-combine img{height:40px;}
+
+  footer .container{padding:0 30px}
+  footer .container a.first-link{margin-right:10px;}
+  footer .container a img{height:35px;}
+  footer .footer-note{font-size:10px;}
+}

@@ -1,0 +1,73 @@
+.contact-us.section-padding {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+.contact-us p, .contact-us p a {
+    color: rgba(255, 255, 255, .8) !important;
+    letter-spacing: 1px;
+}
+.contact-us p.txt--white {
+    font-size: 18px;
+}
+.contact-us .container {
+    max-width: 100%;
+    padding: 0 calc(6rem - 15px);
+}
+.contact-email {
+    /* max-width: 75%; */
+    border-top: 1px solid rgba(255, 255, 255, .8) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .8) !important;
+}
+.contact-us p.title {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.contact-us p.contact-number {
+    font-size: 40px;
+}
+.contact-us p.contact-email a.smalltitle {
+    font-size: 32px;
+}
+
+@media screen and (max-width:1440px) {
+    .contact-us p.contact-email a.smalltitle {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact-us .col-10.col-md-3 {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .contact-us.section-padding {
+        padding: 0;
+        align-items: flex-start;
+        padding-top: 25%;
+    }
+    .contact-us .container {
+        padding: 0 30px;
+    }
+    .contact-us p, .contact-us p a {
+        letter-spacing: 0;
+    }
+    .contact-us p.txt--white {
+        font-size: 18px;
+    }
+    .contact-email {
+        max-width: 85%;
+    }
+    .contact-us p.title {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+    .contact-us p.contact-number {
+        font-size: 24px;
+    }
+    .contact-us p.contact-email a.smalltitle {
+        font-size: 20px;
+    }
+}

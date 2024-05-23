@@ -1,0 +1,498 @@
+body {
+    background-color: #dcdac8;
+}
+.padding-award {
+    padding: 0 3rem;
+}
+.container-full {
+    /* max-width: 1498px; */
+    /* padding: 0; */
+    max-width: 100%;
+    /* padding: 0 calc(6rem + 2.5rem); */
+    padding: 0 calc(6rem - 15px);
+}
+section.banner {
+    padding: 3rem 0 1rem;
+}
+section.banner-02 {
+    padding: 2.5rem;
+}
+.our-service, .overlay-div {
+    min-height: 635px;
+}
+.container-brand {
+    max-width: 1140px;
+}
+.bg-isuzu {
+    background: url(../images/awards/bg-isuzu.jpg)top center no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+.bg-fuso {
+    background: url(../images/awards/bg-fuso.jpg)top center no-repeat;
+    background-size: cover;
+}
+.bg-nissan {
+    background: url(../images/awards/bg-nissan.jpg)top center no-repeat;
+    background-size: cover;
+}
+.bg-subaru {
+    background: url(../images/awards/bg-subaru.jpg)top center no-repeat;
+    background-size: cover;
+}
+.award-div {
+    padding-top: 9rem;
+    padding-left: 3rem;
+    /* max-width: 1480px; */
+    max-width: 100%;
+}
+.award-div .subtitle {
+    font-size: 2rem;
+}
+.border-top {
+    border-top: 2px solid white !important;
+}
+.award-text {
+    color: rgb(255,255,255,.6);
+    font-size: 1.5rem;
+}
+.twobox .smalltitle {
+    font-size: 2rem;
+}
+.twobox .col-md-6 {
+    padding: 0 15px;
+}
+.twobox .mb-new {
+    margin-bottom: 30px !important;
+}
+.service-box-container .subtitle {
+    font-size: 2.4rem;
+}
+
+.footer-logo {
+    color: #966B51;
+    padding-bottom: 4rem;
+}
+.title-footer-logo {
+    font-size: 3.5rem;
+    font-family: "Alex";
+    text-transform: uppercase;
+    margin-bottom: 4.5rem;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+.title-logo {
+    font-size: 1.5rem;
+    border-top: 2px solid #966B51;
+    text-transform: uppercase;
+    font-family: "MetaBold-Roman";
+    margin-bottom: 2rem;
+    padding-top: .8rem;
+}
+.logo-content {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-content.last {
+    justify-content: flex-start;
+}
+.logo-left-bottom .logo-content.last .logo-pic img {
+    margin-right: 2.5rem;
+}
+.logo-right-top .logo-content.last .logo-pic img {
+    margin-right: 2.5rem;
+}
+.logo-wrapper {
+    padding-bottom: 5rem;
+}
+.logo-left, .logo-right {
+    width: 47.5%;
+}
+.logo-right {
+    /* width: 50%; */
+}
+.milestone-item p:last-child {
+    font-size: 1.5rem;
+}
+.section-service .service-container-sm {
+    margin: 4rem auto !important;
+}
+.service-box p.mb-5 {
+    margin-bottom: 4rem !important;
+}
+.service-box img {
+    height: 68px;
+}
+
+/* @media screen and (max-width:1498px) {
+    .container-full {
+        padding: 0 calc(6rem - 15px);
+    }
+    .award-div {
+        padding-top: 26px;
+    }
+    .our-service {
+        min-height: inherit;
+    }
+    
+} */
+
+section#section-1 {
+    margin: 5rem auto;
+    padding: 0 2.5rem;
+    min-height: inherit;
+    height: inherit;
+}
+#slides .slick-track {
+    margin-bottom: 80px;
+}
+#slides {
+    background: transparent url(../images/awards/bg-brand.jpg) top center no-repeat;
+    background-size: cover;
+}
+#slides-m {
+    background: transparent url(../images/awards/bg-brand-mobile.jpg) top center no-repeat;
+    /* background-size: contain; */
+    margin: 0 30px;
+    padding-bottom: 3rem;
+}
+.logo-brand {
+    text-align: center;
+    margin-bottom: 6rem;
+    padding: 0;
+}
+section#section-1 .slick-slide img {
+    width: 291px;
+}
+.text-brand {
+    color: rgba(255,255,255,.8);
+    font-size: 1.8rem;
+    font-family: "MetaBold-Roman";
+    text-align: left;
+    padding: 2rem 0 0;
+    border-top: 1px solid rgba(255,255,255,.8);
+}
+#slides-m .slick-dots {
+    bottom: 1rem;
+}
+
+.container-slider {
+    max-width: 1140px;
+}
+
+@media screen and (max-width:1440px) { 
+    .our-service, .overlay-div {
+        min-height: 453px;
+        /* max-height: 505px; */
+        background-position: center center;
+    }
+    .our-service-01 {
+        background-position: center left;
+    }
+    .our-service img {
+        max-width: 112px;
+    }
+    .our-service-02 {
+
+    }
+    .award-div {
+        padding-top: 3rem;
+    }
+    .award-text {
+        font-size: 1.2rem;
+    }
+    .logo-brand {
+        margin-bottom: 9rem;
+    }
+
+    .logo-pic img {
+        max-height: 70px;
+    }
+
+    section#section-1 .slick-slide img {
+        width: 240px;
+    }
+    .text-brand {
+        font-size: 2rem;
+    }
+
+    section#section-1 {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width:1200px) { 
+    .padding-award {
+        padding: 0 1rem;
+    }
+    .our-service, .overlay-div {
+        /* max-height: 320px; */
+    }
+    .our-service img {
+        max-width: 90px;
+    }
+    .logo-pic img {
+        max-height: 60px;
+    }
+}
+@media screen and (max-width:992px) { 
+    .our-service, .overlay-div {
+        min-height: inherit;
+        /* max-height: 505px; */
+        background-position: center center;
+    }
+
+
+    .padding-award {
+        padding: 0;
+    }
+
+    .logo-pic img {
+        max-height: 50px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .our-service .col-12.col-md-3.col-lg-5.col-xxl-3 {
+        width: 75%;
+    }
+    .logo-brand {
+        margin-left: 5rem !important;
+    }
+    .text-brand {
+        margin-left: 5rem !important;
+        width: 65% !important;
+    }
+
+    .title-logo {
+        font-size: 1.2rem;
+    }
+    .logo-pic img {
+        max-height: 38px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .padding-award {
+        padding: 0;
+    }
+    .container-full, .container-brand {
+        padding: 0 30px;
+    }
+    .container.service-padding {
+        padding: 3.5rem 30px 1.5rem;
+    }
+	.container.service-02-padding {
+        padding: 1.5rem 30px 3.5rem;
+    }
+    .award-div p.subtitle {
+        margin-bottom: .5rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+        /* letter-spacing: 1px; */
+    }
+    .award-div .subtitle {
+        font-size: inherit;
+        width: 55%;
+    }
+    .service-box-container .subtitle {
+        font-size: 1rem;
+    }
+    .award-text {
+        font-size: .6rem;
+        margin-bottom: 1rem !important;
+        max-width: 50%;
+    }
+    .service-container-sm {
+        margin: 1.5rem auto !important;
+    }
+    .service-container-sm .subtitle {
+        font-size: 1.3rem;
+    }
+    .our-service {
+        min-height:inherit;
+        /* background-position: 20% 100%; */
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .our-service .col-12.col-md-3.col-lg-5.col-xxl-3 {
+        width: 100%;
+    }
+    .our-service-01 {
+        background-image: url(../images/awards/service-01-mobile.jpg);
+    }
+    .our-service-02 {
+        background-image: url(../images/awards/service-02-mobile.jpg);
+    }
+    .our-service-03 {
+        background-image: url(../images/awards/service-03-mobile.jpg);
+    }
+    .overlay-div {
+        min-height:inherit;
+        background-color: rgba(0,0,0,0);
+    }
+    .our-service-03 {
+        background-position: 50% 50%;
+    }
+    .section-padding.py-5 {
+        padding: 0 !important;
+    }
+    .section-padding.py-5 p {
+        margin-bottom: 0;
+    }
+    .p-4.mb-3.txt--white {
+        margin-bottom: 30px !important;
+    }
+    .border-large {
+        border-bottom: 30px solid #dcdac8;
+    }
+    .hire-purchase-mobile {
+
+    }
+    .our-service img {
+        max-width: 60px;
+    }
+    .award-pic {
+        max-width: 65px;
+    }
+    .hire-purchase-mobile .ps-3 {
+        padding-left: .5rem !important;
+    }
+    .service-box img {
+        max-height: 50px;
+    }
+    .service-box p.mb-5 {
+        font-size: .8rem;
+        margin-bottom: 1.5rem !important;
+    }
+    .border-top-gold {
+        border-top: 1px solid #B07C48 !important;
+    }
+    .service-box-container {
+        padding: 2rem 0 .5rem !important;
+    }
+
+    .milestone-item .smalltitle {
+        font-size: 20px;
+    }
+    .milestone-item p {
+        font-size: 16px;
+    }
+    .m-fuso {
+        margin-top: -30px;
+    }
+
+    .logo-brand {
+        margin-left: 0 !important;
+        margin: 0 auto;
+    }
+    .text-brand {
+        margin-left: 0 !important;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .twobox .col-md-6 {
+        padding: 0;
+    }
+    .title-footer-logo {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .title-logo {
+        font-size: 1rem;
+        border-top: 1px solid #966B51;
+        margin-bottom: 1rem;
+    }
+    .logo-container {
+        flex-direction: column;
+    }
+    .logo-wrapper {
+        padding-bottom: 2rem;
+    }
+    .logo-right-bottom .logo-wrapper {
+        padding-bottom: 0;
+    }
+    .logo-left, .logo-right {
+        width: 100%;
+    }
+    .logo-left-bottom .logo-content.last .logo-pic img {
+        margin-right: 0;
+    }
+	.logo-right-top .logo-content.last .logo-pic img {
+        margin-right: 0;
+    }
+    .logo-pic img {
+        max-width: 65px;
+        max-height: inherit;
+    }
+    .logo-right-bottom .logo-pic img {
+        max-width: 55px;
+    }
+    .footer-logo {
+        padding-bottom: 0;
+    }
+    section.banner, section.banner-02 {
+        padding: 0;
+    }
+    .container-brand {
+        padding-bottom: 2rem;
+    }
+    .bg-isuzu {
+        background: url(../images/awards/bg-isuzu-mobile.jpg) top center no-repeat;
+        background-size: cover;
+    }
+    .bg-fuso {
+        background: url(../images/awards/bg-fuso-mobile.jpg) top center no-repeat;
+        background-size: cover;
+    }
+    .bg-nissan {
+        background: url(../images/awards/bg-nissan-mobile.jpg) top center no-repeat;
+        background-size: cover;
+    }
+    .bg-subaru {
+        background: url(../images/awards/bg-subaru-mobile.jpg) top center no-repeat;
+        background-size: cover;
+    }    
+    .milestone-item p:last-child {
+        font-size: .9rem;
+    }
+    .milestone-item.ps-3 {
+        padding-left: .5rem !important;
+    }
+    .section-service .service-container-sm {
+        margin: 2rem auto !important;
+    }
+
+
+    section#section-1 {
+        height: inherit;
+    }
+    #section-1 {
+        margin: 2rem auto;
+        padding: 0;
+    }
+    .logo-brand {
+        margin-bottom: 2rem;
+        padding: 0 1.5rem;
+    }
+    section#section-1 .slick-slide img {
+        width: 150px;
+    }
+    .text-brand {
+        font-size: .9rem;
+        padding: 1rem 0;
+        font-family: 'MetaNormal-Roman', Arial;
+    }
+    #slides-m .slick-track {
+        margin-top: 2rem;
+    }
+
+    section#section-1, section#section-1 .container {
+        padding: 0;
+    }
+}
